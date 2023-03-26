@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html lang="en">
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+	<head>
+		<!--Java script function which will return to the main page-->
+		<script>
+         
+			function Redirect() {
+				window.location = "MainPage.html";
+			}            
+			setTimeout('Redirect()', 4000);
+            
+         
+		</script>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="Main.css">
+			
+            <title>Presentation page</title>
+			<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+			<img id= "logo" src="artsy.jpeg" alt="artsy.jpeg" style="margin-top:0px; float:right; height:68px; width:68px;">
+		
+
+	</head>
+	
+		<body>
+		
+		
+			<h1>B 3</h1>
+			
+			
+		<!--Table of content - group members, assigned roles and their details-->
+		    <table>
+				<tr>
+					<th>UoW ID</th>
+					<th>Stuent Name</th>
+					<th>Role</th>
+				</tr>
+				<tr>
+					<td>w1867369</td>
+					<td>Devmi Welikala</td>
+					<td>Student 1</td>
+				</tr>
+				<tr>
+					<td>w1867349</td>
+					<td>Nathasha Weerasinghe</td>
+					<td>Student 2</td>
+				</tr>
+				<tr>
+					<td>w1867116</td>
+					<td>Kaveesha De silva</td>
+					<td>Student 3</td>
+	               
+				</tr>
+				<tr>
+					<td>w1867372</td>
+					<td>Romeshi Hettiarachchi</td>
+					<td>Student 4</td>
+	               
+				</tr>
+			</table>
+				
+			<br><br>
+				<p>This page will take you into the main page in 4 seconds. </p>
+			
+			
+             <!--link in the footer will return to the editors page-->
+			<footer>
+				<a href="pagedevmi.html"> Page Developer</a>
+			</footer>
+		
+
+		</body>
+</html>

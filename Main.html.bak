@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"> 
+	<head>	
+		<meta charset="UTF-8">
+		<title>Artsy | Welcome </title>
+		<link rel = "icon" type = "image/x-icon" href="images/favicon.ico">
+		<link rel = "stylesheet" href = "Main.css">
+	</head>
+	<body>
+		<div>
+		<ul>
+			<li><a class="active" href = "main.html">Home</a></li>
+			<li><a href = "products.html">Products</a></li>
+			<li><a href = "quiz.html">Quiz</a></li>
+			<li><a href = "gallery.html">Gallery</a></li>
+			<li><a href = "Query.html">Contact Us</a></li>
+			<li><a href = "HTML/sitemap.html">Site Map</a></li>
+			<li><a href = "art.html">Art</a></li>
+			<li><a href = "about.html">About</a></li>
+		</ul>
+		</div><br><br><br><br><br>
+		<h1 class="title" >Welcome to Artsy</h1>
+		<img class = "logo" src = "logo.jpeg" alt = "Logo" title = "Artsy">
+		<hr><h3 class="title"> Our goal is to bring color to your life. </h3><hr>
+		<p class="title"> The colors you surround yourself with can influence your perspective and emotions, 
+		as well as those around you.</p>
+		<p class="title"> Displayed below, are some color pallettes to inspire you.</p>
+		<div>
+		<img class="pallette" src = "Spring.png" alt = "spring" title = "Spring color pallette">
+		<img class="pallette" src = "Summer.png" alt = "summer" title = "Summer color pallette">
+		<img class="pallette" src = "Autumn.png" alt = "autumn" title = "Autumn color pallette">
+		</div>
+		<div class="last">
+		<hr>
+		<footer>
+		<p><a class="texteditor" href = "student2.html"> Page Editor </a></p>
+		</footer>
+		</div>
+	</body>	
+</html> 

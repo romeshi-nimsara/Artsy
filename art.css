@@ -1,0 +1,15 @@
+.topic{
+	margin:20px;
+	
+}
+
+a.lnk:link { color : black;}
+a.lnk:visited { color : purple;}
+a.lnk:hover { color : red;}
+a.lnk:active { color : yellow;}
+
+.content{
+	border-style: solid;
+	padding: 30px;
+	margin:35px;
+}

@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color:white;
+
+}
+
+body{
+	background-image:url("stbgi.jpg");
+	Height:100%;
+	background-size: cover;
+	background-color:blue;
+}
+
+h1{
+	text-align:center;
+}
+
+a:link { color : white;}
+a:visited { color : grey;}
+a:hover { color :red;}
+a:active { color :black;}
+
+div{
+	border-style: solid;
+	padding: 20px;
+	margin:25px;
+}

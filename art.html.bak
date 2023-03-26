@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"> 
+	<head>	
+		<meta charset="UTF-8">
+		<title>Artsy | Art </title>
+		<link rel = "icon" type = "image/x-icon" href="images/favicon.ico">
+		<link rel = "stylesheet" href = "Main.css">
+		<link rel = "stylesheet" href = "art.css">
+	</head>
+	<body>
+		<div>
+		<ul>
+			<li><a href = "main.html">Home</a></li>
+			<li><a href = "products.html">Products</a></li>
+			<li><a href = "quiz.html">Quiz</a></li>
+			<li><a href = "gallery.html">Gallery</a></li>
+			<li><a href = "Query.html">Contact Us</a></li>
+			<li><a href = "sitemap.html">Site Map</a></li>
+			<li><a class="active" href = "art.html">Art</a></li>
+			<li><a href = "about.html">About</a></li>
+		</ul>
+		</div><br><br><br><br><br>
+		<h1 class="title" >Art</h1>
+		<img class = "logo" src = "logo.jpeg" alt = "Logo" title = "Artsy">
+		<h4 class = "topic"><a class = "lnk" href="#one">What is art?</a></h4>
+		<h4 class = "topic"><a class = "lnk" href="#two">About Artsy</a></h4>
+		<h4 class = "topic"><a class = "lnk" href="#three">What we offer</a></h4>
+		<h4 class = "topic"><a class = "lnk" href="#four">How to contact us</a></h4>
+		<h4 class = "topic"><a class = "lnk" href="#five">Our Team</a></h4>
+		<div class = "content" id = "one">
+		<h4>What is art?</h4>
+		<p>Art is a medium of expression that requires creativity and imagination.</p>
+		<p>It has the capability to reflect beauty of anything through various methods.</p>
+		<p>Art helps an individual to develop the creative side of his life.</p>
+		</div>
+		<div class = "content" id = "two">
+		<h4>About Artsy</h4>
+		<p>Artsy is a website that created for anyone who is interested in painting.</p>
+		<p>Our aim is to inspire you to create art.</p>
+		<p>This website was created with the intention encouraging aspiring artists.</p>
+		</div>
+		<div class = "content" id = "three">
+		<h4>What we offer</h4>
+		<p>Artsy offers you a variety of products that you can use to create art.</p>
+		<p>All of these products can be viewed through our website.</p>
+		<p>We have a quiz designed for you to test your art skills.</p>
+		<p>The gallery offers you more insight on our website.</p>
+		<p>For easy navigation you can use the site map.</p>
+		</div>
+		<div class = "content" id = "four">
+		<h4>How to contact us</h4>
+		<p>You can contact us for any concerns.</p>
+		<p>Please fill the form with the requested information.</p>
+		<p>Our team will get back to you as soon as possible.</p>
+		</div>
+		<div class = "content" id = "five">
+		<h4>Our Team</h4>
+		<p>Our team consists of four members.</p>
+		<p>For more information about the members, you can select 'About' on the navigation bar.</p>
+		</div>
+	</body>
+</html>

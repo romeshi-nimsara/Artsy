@@ -1,0 +1,275 @@
+<html lang="en">
+	<head>
+	<body style="background-color:#03A6CC;">
+		<title>Quiz</title>
+		<link rel="stylesheet" href="Quiz.css">
+		<link rel="stylesheet" href="Main.css">
+	</head>
+ 	<body>
+		<div>
+		<ul>
+			<li><a href = "main.html">Home</a></li>
+			<li><a href = "products.html">Products</a></li>
+			<li><a class="active" href = "quiz.html">Quiz</a></li>
+			<li><a href = "HTML/gallery.html">Gallery</a></li>
+			<li><a href = "Query.html">Contact Us</a></li>
+			<li><a href = "HTML/sitemap.html">Site Map</a></li>
+			<li><a href = "art.html">Art</a></li>
+			<li><a href = "about.html">About</a></li>
+		</ul>
+		</div><br><br><br>
+		<div class="quizQuestions" id="timer">
+					<div id="timerLabel">Time Left:  </div> <!--The quiz time is limited to one minute.When you start the quiz, you can see the time left-->
+					<div id="showTimer"></div>
+					<span style="margin-left:500px;"><a href="#q1" class="quizAnchors">Q 01-03</a></span>
+					<span style="margin-left:20px;"><a href="#q4" class="quizAnchors">Q 04-06</a></span>
+					<span style="margin-left:20px;"><a href="#q7" class="quizAnchors">Q 07-10</a></span>
+		</div>
+		<div class="icon">
+			<img src="logo.png" width="180" height="150" alt="logo"> 
+			<div class="text"><i><u>Artsy</u></i></div>
+			<br>
+			</br>
+			<br>
+			</br>
+		</div>
+		
+		<form name="quiz" id="quiz"> <!--Multiple-choice quiz-->
+			<div id="quizRules">
+				<h1 id="quizHeading">Welcome to the QUIZ</h1>
+				<br>
+				<!--The rules of the quiz-->
+				<p class="quizDetails"><strong>~ You have one minute to answer all the questions ~</strong></p>
+				<p class="quizDetails"><strong>~ The time will start after you press the start button ~</strong></p>
+				<p class="quizDetails"><strong>~ For each incorrect answer one mark will be reduced ~</strong></p>
+				<p class="quizDetails"><strong>~ For each correct answer two marks will be awarded ~</strong></p>
+				<p class="quizDetails"><strong>~ The quiz should consist of 10 questions ~</strong></p>
+				<p class="quizDetails"><strong>~ After you finished the quiz, you can see your results ~</strong></p>
+				<div class="button">
+					<button id="startButton" type="button" value="start" onclick="showQuiz(this.form);">START</button>
+				</div>
+			</div>
+			
+			
+			
+			<div class="quizQuestions">
+				<!--10 quiz questions included-->
+				<div id="questions">
+					<div class="ques" id="q1">
+						<p><strong>1. Who is the Father of Art?</strong></p></strong></p>
+						<p class="answers"><input type="radio" name="question1" value="wrong"> Leanardo Da Vinci</p>
+						<p class="answers"><input type="radio" name="question1" value="wrong"> Pablo Picasso</p> 
+						<p class="answers"><input type="radio" name="question1" value="correct"> Giorgio Vasari</p>
+						<p class="answers"><input type="radio" name="question1" value="wrong"> Edvard Munch</p>
+					</div>
+
+					<div class="ques">
+						<p><strong>2. What animal often symbalize peace in art?</strong></p>
+						<p class="answers"><input type="radio" name="question2" value="wrong"> Dog</p>
+						<p class="answers"><input type="radio" name="question2" value="wrong"> Duck</p>
+						<p class="answers"><input type="radio" name="question2" value="correct"> Dove</p>
+						<p class="answers"><input type="radio" name="question2" value="wrong"> Dear</p>
+					 </div>
+
+					 <div class="ques">
+						<p><strong>3. What is the main visual element in impressionlist painting?</strong></p>
+						<p class="answers"><input type="radio" name="question3" value="correct"> Color</p>  
+						<p class="answers"><input type="radio" name="question3" value="wrong"> Pattern</p>
+						<p class="answers"><input type="radio" name="question3" value="wrong"> Line</p>
+						<p class="answers"><input type="radio" name="question3" value="wrong"> Shape</p>
+					 </div>
+
+					 <div class="ques" id="q4">
+						<p><strong>4.Who painted the 'Mona Lisa'?</strong></p>
+						<p class="answers"><input type="radio" name="question4" value="wrong"> Pablo Picasso</p>
+						<p class="answers"><input type="radio" name="question4" value="correct"> Leanardo Da Vinci</p>
+						<p class="answers"><input type="radio" name="question4" value="wrong"> Vincent Van Gogh</p>
+						<p class="answers"><input type="radio" name="question4" value="wrong"> Rembrandt</p>  
+					</div>       
+
+					<div class="ques">
+						<p><strong>5. Where can you see the Mona Lisa?</strong></p>
+						<p class="answers"><input type="radio" name="question5" value="wrong"> The Gugsenheim Meseum</p> 
+						<p class="answers"><input type="radio" name="question5" value="wrong"> Tate Britain</p> 
+						<p class="answers"><input type="radio" name="question5" value="correct"> The Louver Meseum</p> 
+						<p class="answers"><input type="radio" name="question5" value="wrong"> The Pumpidou Centre</P>
+					</div>
+
+					<div class="ques">
+						<p><strong>6. How long did it take Leonardo Da Vinci to paint the Mona Lisa's smile?</strong></p>
+						<p class="answers"><input type="radio" name="question6" value="correct">16 Years </p> 
+						<p class="answers"><input type="radio" name="question6" value="wrong"> 16 Months</p>
+						<p class="answers"><input type="radio" name="question6" value="wrong"> 16 Weeks</p>
+						<p class="answers"><input type="radio" name="question6" value="wrong"> 16 Days </p>
+					</div>
+
+					<div class="ques" id="q7">
+						<p><strong>7. The Primary Colours are...?</strong></p>
+						<p class="answers"><input type="radio" name="question7" value="wrong"> Green,Orange and Violet</p>
+						<p class="answers"><input type="radio" name="question7" value="wrong"> Yellow,Red and Orange</p>
+						<p class="answers"><input type="radio" name="question7" value="correct"> Red,Yellow, and Blue</p>
+						<p class="answers"><input type="radio" name="question7" value="wrong"> Yellow, Green and Orange</p>
+					</div>
+					
+					<div class="ques">
+						<p><strong>8. What object commonly appears in Picasso's Paintings? </strong></p>
+						<p class="answers"><input type="radio" name="question8" value="wrong"> The Sun</p>
+						<p class="answers"><input type="radio" name="question8" value="wrong"> Clock</p>
+						<p class="answers"><input type="radio" name="question8" value="correct"> Guitar</p>
+						<p class="answers"><input type="radio" name="question8" value="wrong"> Apple</p>
+					</div>
+				   
+					<div class="ques">
+						<p><strong>9.Bowl of Fruit violin and Bottle is the workof whcih artist?</strong></p>
+						<p class="answers"><input type="radio" name="question9" value="wrong"> Rembrant</p>
+						<p class="answers"><input type="radio" name="question9" value="correct"> Pablo Picasso</p>
+						<p class="answers"><input type="radio" name="question9" value="wrong">Leonardo Da Vinci</p>
+						<p class="answers"><input type="radio" name="question9" value="wrong "> Edvard Munch</p>
+					</div>
+
+					<div class="ques">
+						<p><strong>10.Which artist said 'Everything you can imagine is real?</strong></p>
+						<p class="answers"><input type="radio" name="question10" value="correct"> Pablo Picasso</P>
+						<p class="answers"><input type="radio" name="question10" value="wrong"> Jackson Pollock</p>
+						<p class="answers"><input type="radio" name="question10" value="wrong"> Leonardo Da Vinci</p>
+						<p class="answers"><input type="radio" name="question10" value="wrong"> Rembrant</p>
+					</div>
+					<div>
+						<button id="submitButton" type="button" class="submit" onclick="checkAnswers(),colorChange(),printResult();">SUBMIT</button>
+					</div>
+				</div>
+			</div>	
+			<div id="finalResults"> <!--After the quiz, you can see your results summary-->
+				<h3 id="resultsHeading">RESULTS</h3>
+				<div id="results">
+				   <div id="totalScore" class="resultsDetails" style="margin-top:20px;"></div>
+				   <div id="correctAns" class="resultsDetails"></div>
+				   <div id="incorrectAns" class="resultsDetails"></div>
+				   <div id="emptyAns" class="resultsDetails"></div>
+				   <div id="remainingTime" class="resultsDetails" style="margin-bottom:20px;"></div>
+				</div> 
+				<div class="button">
+					<button id="retryButton" onclick="resetPage(),stopTimer();" type="button"> RETRY </button>
+				</div>
+			</div>
+		</form>
+		
+		
+		<script>
+			var time;
+			var correctQuestions = '';
+			var incorrectQuestions = '';
+			var emptyQuestions = '';
+			var total = 0;
+			var i;
+			var j;
+			var isEmpty = 0;
+			var timer;
+			
+			function showQuiz(){
+				document.getElementById("quizRules").style.display = 'none';
+				document.getElementsByClassName("quizQuestions")[0].style.display = 'block';
+				document.getElementsByClassName("quizQuestions")[1].style.display = 'block';
+				startTimer();
+				timeout();
+			}
+				
+			function startTimer(){
+				time = 59;
+				timer = setInterval(
+					function(){
+						document.getElementById('showTimer').innerHTML = time;
+						if(time>0){
+							time--
+						}else{
+							stopTimer();
+							time=0;
+						}
+					},1000);
+			}
+			  
+			function checkAnswers() {
+				stopTimer();
+				document.getElementById('remainingTime').innerHTML = "Time Remained : " + time + "seconds";
+				clearTimeout(setTimer);
+				
+				for(i = 1; i <= 10; i++) {
+					var questionNum = document.getElementsByName('question'+i);
+					for(j = 0; j < questionNum.length; j++) {
+						var radioValue = questionNum[j];
+						if(radioValue.value == "correct" && radioValue.checked) {
+							total = total + 2;
+							correctQuestions = correctQuestions +'Question '+i+", ";
+						}else if (radioValue.value == "wrong" && radioValue.checked) {
+							total = total - 1; 
+							incorrectQuestions = incorrectQuestions +'Question '+i+", ";
+						}else{
+							isEmpty += 1;
+							if(isEmpty == 4){
+								emptyQuestions = emptyQuestions +'Question '+i+", ";
+							}
+						}
+					}
+					isEmpty = 0;
+				}
+				
+				document.getElementById("quizRules").style.display = 'none';
+				document.getElementsByClassName("quizQuestions")[0].style.display = 'none';
+				document.getElementsByClassName("quizQuestions")[1].style.display = 'none';
+				document.getElementById("finalResults").style.display = 'block';
+			}
+			
+			function printResult(){
+				document.getElementById('totalScore').innerHTML = "Total Score = " + total + "/20";
+				document.getElementById('correctAns').innerHTML = "Questions which you entered Correct Answers : " + correctQuestions;
+				document.getElementById('incorrectAns').innerHTML = "Questions which you entered Incorrect Answers : " + incorrectQuestions;
+				document.getElementById('emptyAns').innerHTML = "Questions which you missed : " + emptyQuestions;
+				document.getElementById('remainingTime').innerHTML = "Time Remained : " + time + "seconds";
+			}
+			function colorChange(){
+				if(total>=15) {
+					document.body.style.backgroundImage = "url('backgroundBLUE.jpg')";
+				}else if(total<15 && total>=10){
+					document.body.style.backgroundImage = "url('backgroundGREEN.jpg')";
+				}else if(total<10 && total>=5){
+					document.body.style.backgroundImage = "url('backgroundORANGE.jpg')";
+				}else if(total<5 && total>=0){
+					document.body.style.backgroundImage = "url('backgroundRED.jpg')";
+				}else{
+					document.body.style.backgroundImage = "url('backgroundYELLOW.jpg')";
+				}
+			}
+			
+			function timeout() {
+				setTimer = setTimeout('timeUp()',60000);		
+			}
+
+			function timeUp() {
+				alert("Your Time is UP!");
+				checkAnswers();
+				colorChange();
+				printResult();
+			}
+			
+			function resetPage(){
+				document.getElementById("quiz").reset();
+				document.getElementById("quizRules").style.display = 'block';
+				document.getElementsByClassName("quizQuestions")[0].style.display = 'none';
+				document.getElementsByClassName("quizQuestions")[1].style.display = 'none';
+				document.getElementById("finalResults").style.display = 'none';
+				total = 0;
+				correctQuestions = '';
+				incorrectQuestions = '';
+				emptyQuestions = '';
+				document.body.style.backgroundColor="#fff";
+				document.body.style.backgroundImage = "url('ourbg.jpg')";
+			}
+			
+			function stopTimer(){
+				clearInterval(timer);
+			}
+			
+		</script>
+		<!--The user will get 2 marks for each correct answer, and -1 for each wrong answer-->
+		<a href="Kaveesha.html">Page Developer</a>	<!--The background color also changing for user's marks-->
+		</html>

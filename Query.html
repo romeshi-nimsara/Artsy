@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"> 
+	<head>	
+		<meta charset="UTF-8">
+		<title>Artsy | Contact Us</title>
+		<link rel = "icon" type = "image/x-icon" href="images/favicon.ico">
+		<link rel = "stylesheet" href = "Query.css">
+		<link rel = "stylesheet" href = "Main.css">	
+	</head>
+	<body>
+		<div>
+		<ul>
+			<li><a href = "main.html">Home</a></li>
+			<li><a href = "products.html">Products</a></li>
+			<li><a href = "quiz.html">Quiz</a></li>
+			<li><a href = "HTML/gallery.html">Gallery</a></li>
+			<li><a class="active" href = "Query.html">Contact Us</a></li>
+			<li><a href = "HTML/sitemap.html">Site Map</a></li>
+			<li><a href = "art.html">Art</a></li>
+			<li><a href = "about.html">About</a></li>
+		</ul>
+		</div><br><br>
+		<h1> Contact Us </h1>
+		<h4> Get in touch and let us know how we can help you. </h4>
+		<img class = "logo" src = "logo.jpeg" alt = "Logo" title = "Artsy">
+		<div id="dv">
+			<form name="qform" id="qform" class="textst">
+				<fieldset>
+				<legend>Personal Details</legend>
+				<label for = "name">Name</label>
+				<input type = "text" name = "name" id = "name" placeholder = "Enter your name">
+				<label for = "email">Email</label>
+				<input type = "email" name = "email" id = "email" placeholder = "Enter your Email">
+				</fieldset>
+				<fieldset>
+				<legend>Your Query</legend>
+				<div><input type = "radio" name = "query" id = "delivery">
+				<label for = "delivery">Delivery</label>
+				<input type = "radio" name = "query" id = "products">
+				<label for = "products">Products</label>
+				<input type = "radio" name = "query" id = "offers">
+				<label for = "offers">Discounts and Offers</label></div>
+				<div><label for = "feedback">Concern</label></div>
+				<textarea name = "feedback" id = "feedback"></textarea>
+				<div><input type = "button" onclick = "validateForm(form);" name = "check" id="check" class="btall" value = "View query"> </div>
+				</fieldset>
+			</form>
+		</div>
+		<div id="dv2">
+		<form name="ftwo" id="ftwo" class="textst" action="mailto:nathasha.20210235@iit.ac.lk" method="post" enctype="text/plain">
+			<p id="one"></p>
+			<p id="two"></p>
+			<p id="three"></p>
+			<p id="four"></p>
+		</form>
+		</div>
+		<script src="query.js"></script>
+		<h4> Our team will get back to you as soon as possible! </h4>
+		<hr>
+		<footer>
+		<p><a class="texteditor" href = "student2.html"> Page Editor </a></p>
+		</footer>
+	</body>	
+</html> 

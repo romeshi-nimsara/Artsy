@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+   <html lang="en">>=
+    <head>
+			<meta charset="UTF-8">	
+			<title>Editors Page</title>
+    </head>
+		
+        <body>
+			<h4>Student details </h4>
+			<p>Name :Devmi Welikala</p>
+			<p>Student Role :Student 1</p>
+			<p>IIT Id :20210640</p>
+			<p>Uow Id :w1867369</p>
+			<br><br><br>
+			<h4>Tasks</h4>
+			<ul>
+				<li>Presentation Page</li>
+				<li>Designing the Main page</li>
+				<li>Designing the logo</li>
+				<li>External CSS</li>
+				<li>Page anchors</li>
+				<li>Page editor</li>
+				<li>Additional Interactivity ;Popup Alert</li>
+				<li>Uploaded to the server</li>
+				<li>Pages validated</li>
+			</ul>
+			
+			
+        </body>
+
+
+    </html>

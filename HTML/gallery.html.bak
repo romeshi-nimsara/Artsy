@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+
+    <!-- link the css files, and title img with the html code -->
+    <link rel="stylesheet" href="../Styles/sitemap.css">
+    <link rel="stylesheet" href="../Styles/Gallery_Styles.css">
+	<link rel="stylesheet" href="../Styles/Main.css">
+    <link rel="icon" href="../Web_page_logo/welogo.jpg" type="image/png" sizes="16x16">
+	
+</head>
+<body id="bodyColor">
+
+<!-- main navigation bar -->
+<div>
+	<!-- main navigation links-->
+    <nav class="nav-links">
+	<img class="logo" src="../Web_page_logo/welogo.jpg" alt="logo" usemap="#logo">
+	<map name="logo">
+		<area shape="circle" coords="45,42,38" href="#Home.html" alt="logo">
+	</map>
+	<ul>
+          
+	   <li><a href="main.html">Home</a></li>
+	   <li><a href="products.html">Products</a></li>
+	   <li><a href="quiz.html">Quiz</a></li>
+           <li><a class="active" href="gallery.html">Gallery</a></li>
+           <li><a href = "Quiry.html">Contact Us</a></li>
+	   <li><a href="sitemap.html">Site Map</a></li>
+	   <li><a href="art.html">Art</a></li>
+           <li><a href="about.html">About</a></li>
+          
+           
+	</ul>
+	</nav>
+
+    <!-- dropdown list for change the background color -->
+    <div class="dropdown"><img class="BGimg" src="../Logos/bgColor.png" alt="BG Color Change Icon" width="20" height="20" /><br>
+        <button class="dropbtn">Background</button>
+        <div class="dropdown-content">
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="#0047AB">Blue</button>
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="#4ce615">Green</button>
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="#FFC000">Yellow</button>
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="#F88379">Pink</button>
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="#991515">Red</button>
+            <button class="dropdownItem" onclick="changeBackgroundColor(this)" value="black">Black</button>
+        </div>
+    </div>
+
+    <!-- dropdown list for change the text color -->
+    <div class="dropdown"><img class="Timg" src="../Logos/textColor.png" alt="Text Color Change Icon" width="20" height="20" /><br>
+        <button class="dropbtn">Text</button>
+        <div class="dropdown-content">
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="#89CFF0">Blue</button>
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="#4ce615">Green</button>
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="#FFFF8F">Yellow</button>
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="#FFB6C1">Pink</button>
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="#991515">Red</button>
+            <button class="dropdownItem" onclick="changeTextColor(this)" value="white">White</button>
+        </div>
+    </div>
+</div>
+
+
+<h1 id="gallery">Gallery</h1>
+<hr>
+
+<!-- display five thumbnail images and image boxes in row -->
+<div class="imagesInRow">
+    <div class="imageBox">
+        <div class="imagesItem">
+            <img class="hover-shadow cursor"id="Monalisa"src="../Gallery_img/Monalisa.jpg" alt="Mona Lisa" width="250" height="190" onmouseover="showWideAreaImage(this);" onclick="navigateToMainImg();">
+        </div>
+    </div>
+
+    <div class="imageBox">
+        <div class="imagesItem">
+            <img class="hover-shadow cursor"id="The Girl with pearl ring"src="../Gallery_img/girl_w_p.jpg" alt="The Girl with pearl ring" width="250" height="190" onmouseover="showWideAreaImage(this);" onclick="navigateToMainImg();">
+        </div>
+    </div>
+
+    <div class="imageBox">
+        <div class="imagesItem">
+            <img class="hover-shadow cursor" id="The Last super" src="../Gallery_img/the_last_s.jpg" alt="The Last super" width="250" height="190" onmouseover="showWideAreaImage(this);" onclick="navigateToMainImg();">
+        </div>
+    </div>
+=--
+    <div class="imageBox">
+        <div class="imagesItem">
+            <img class="hover-shadow cursor"id="The night watch" src="../Gallery_img/the_night_w.jpg" alt="The night watch" width="250" height="190" onmouseover="showWideAreaImage(this);" onclick="navigateToMainImg();">
+        </div>
+    </div>
+
+    <div class="imageBox">
+        <div class="imagesItem">
+            <img class="hover-shadow cursor"id="The starry night" src="../Gallery_img/the_s_n.jpg" alt="The starry night" width="250" height="190" onmouseover="showWideAreaImage(this);" onclick="navigateToMainImg();">
+        </div>
+    </div>
+
+</div>
+
+<br>
+
+<!-- Display the main image in wide area-->
+<div class = "mainImgBox" id="mainImg">
+    <img class="image" id="imageAndDescription" src="../Gallery_img/Monalisa.jpg" alt="Mona Lisa" width="755" height="450">
+    <div class="imageDescription" id="imgtext"></div>
+
+    <!-- radio buttons to change the image -->
+    <input type="image" name="changeImg" id="img1" src="../Gallery_img/Monalisa.jpg" alt="Mona Lisa" onclick="showWideAreaImage(this);">
+    <input type="image" name="changeImg" id="img2" src="../Gallery_img/girl_w_p.jpg" alt="The Girl with pearl ring" onclick="showWideAreaImage(this)">
+    <input type="image" name="changeImg" id="img3" src="../Gallery_img/the_last_s.jpg" alt="The Last super" onclick="showWideAreaImage(this)">
+    <input type="image" name="changeImg" id="img4" src="../Gallery_img/the_night_w.jpg" alt="The night watch" onclick="showWideAreaImage(this)">
+    <input type="image" name="changeImg" id="img5" src="../Gallery_img/the_s_n.jpg" alt="The starry night" onclick="showWideAreaImage(this)">
+
+    <!-- representative of the radio buttons -->
+    <div class="sliderRadioBtns">
+        <label for="img1" class="radioBtn" id="btn1"></label>
+        <label for="img2" class="radioBtn" id="btn2"></label>
+        <label for="img3" class="radioBtn" id="btn3"></label>
+        <label for="img4" class="radioBtn" id="btn4"></label>
+        <label for="img5" class="radioBtn" id="btn5"></label>
+    </div>
+</div>
+<br>
+
+<!-- Back to top icon -->
+<a class="topIcon" id="myBtn" href="#"><img class = "topButton" src="../Logos/top_icon.jpg" alt="Page up logo" width="40" height="40" /></a>
+<br>
+<hr>
+<footer>
+<p>
+      <a href="C:/Users/User/Desktop/WDD_CW/WEB_CW/HTML/report/pageEditor.html">Page Editor : Hettiarachchige Romeshi Nimsara</a>
+</p>
+</footer>
+
+
+<!-- Start of JavaScript -->
+<script>
+	
+	//Expands image on mouseover and shows the relevant description to it
+    function showWideAreaImage(images) {
+        var expandImage = document.getElementById("imageAndDescription"); //main image ID
+        var imgText = document.getElementById("imgtext"); //Image text ID
+        expandImage.src = images.src; //replace image as relevant by assigning the new src name to
+        expandImage.parentElement.style.display;
+        var heading = images.alt; //save the value of the alt attribute of the object passe to the variable
+
+        //Make all the radio representative's background transparent
+        document.getElementById("btn1").style.background = "transparent";
+</script>
+        

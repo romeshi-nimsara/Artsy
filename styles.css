@@ -1,0 +1,103 @@
+
+html { overflow-y: scroll; }
+
+#logo{
+	height: 68px;
+	width: 68px;
+	float: right;
+	margin-top: 40px;
+
+}
+
+body {
+  margin: 0;
+  height: 3500px;
+  
+ }
+
+#main-header {
+  padding: 20px;
+  margin: 0px;
+  background-color: #C69B7B;
+  text-align: center;
+}
+
+#mainProductCard .product-catgeorey {
+  color: #534340;
+  margin-left: 12px;
+  cursor: pointer;
+  
+}
+
+#mainProductCard .table-row .item-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+#mainProductCard .table-row .price {
+  color: grey;
+  font-size: 22px;
+}
+
+#mainProductCard .table-row .item-card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#mainProductCard .table-row .item-card button:hover {
+  opacity: 0.7;
+}
+
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-row {
+  display: inline;
+  align-items: center;
+}
+.fieldset {
+	background-color: #C69B7B;
+	
+
+}
+
+#invoice {
+	margin-left: 300px;
+	padding: 10px;
+	
+}
+
+#customerName{
+	margin-left: 320px;
+
+}
+
+#customerEmail{
+	margin-left: 320px;
+}
+	
+
+#productCart { 
+    margin: auto;
+	margin-top: 40px;
+}
+
+
+#productCart th, td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+  
+	
+}

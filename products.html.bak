@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+			<meta charset="UTF-8">
+            <link rel="stylesheet" href="styles.css">
+			<link rel="stylesheet" href="Main.css">
+			
+            <title>Products page</title>
+			<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+			<img id= "logo" src="artsy.jpeg" alt="artsy.jpeg">
+			
+	</head>
+
+
+	<body>
+		<!--Navigation Bar-->	
+			<div>
+				<ul>
+					<li><a href = "main.html">Home</a></li>
+					<li><a class="active" href = "products.html">Products</a></li>
+					<li><a href = "quiz.html">Quiz</a></li>
+					<li><a href = "gallery.html">Gallery</a></li>
+					<li><a href = "Query.html">Contact Us</a></li>
+					<li><a href = "sitemap.html">Site Map</a></li>
+					<li><a href = "art.html">Art</a></li>
+					<li><a href = "about.html">About</a></li>
+				</ul>
+				</div><br><br>
+				
+            <!--Main Heading-->
+				<h1 id="main-header">Our Products</h1>
+            
+			
+			<!--Inserting Product cards inside a table-->
+				<div id = "mainProductCard">
+                
+              <h2 class = "product-catgeorey" >Paint Products</h2>
+                
+                <table class = "center-table">
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="watercolor.jpeg" alt="Water color palette" style="width:100%">
+                                <h1>WaterColors</h1>
+                                <p class="price">$10</p>
+                                <p>Professional 24 color set of Watercolors in 15ml tubes.</p>
+                                <p><button onclick="waterColors()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="oilpaint.jpeg" alt="Oil Paint" style="width:100%">
+                                <h1>Oil Paint</h1>
+                                <p class="price">$20</p>
+                                <p>Professional 24 color set of Oil paint in 20ml tubes.</p>
+                                <p><button onclick="oilPaint()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="acrylic.jpeg" alt="Acrylic Paint" style="width:100%">
+                                <h1>Acrylic Paint</h1>
+                                <p class="price">$15</p>
+                                <p>Professional 30 color set of Acrylic paint in 15ml tubes.</p>
+                                <p><button onclick="acrylicPaint()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                </table>
+
+
+              <h2 class = "product-catgeorey" >Brush</h2>
+                
+                <table class = "center-table">
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="watercolorbrush.jpeg" alt="Water Color Brush Set" style="width:100%">
+                                <h1>WaterColor Brush</h1>
+                                <p class="price">$4</p>
+                                <p>Set-6pcs of Watercolor brushes.</p>
+                                <p><button onclick="waterColorBrush()">Add to Cart</button></p>
+                            </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="oilpaintbrush.jpeg" alt="Oil Paint Brush set" style="width:100%">
+                                <h1>Oil Paint Brush</h1>
+                                <p class="price">$5</p>
+                                <p>Set-10pcs of Oil paint brushes.</p>
+                                <p><button onclick="oilPaintBrush()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="acrylicbrush.jpeg" alt="Acrylic Paint Brush Set" style="width:100%">
+                                <h1>Acrylic Paint Brush</h1>
+                                <p class="price">$5</p>
+							    <p>Set-10pcs of Acrylic paint brushes.</p>
+                                <p><button onclick="acrylicPaintBrush()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                </table>
+				
+		     <h2 class = "product-catgeorey" >Color Palette</h2>
+                
+                <table class = "center-table">
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="palsticpalette.jpeg" alt="Plastic Palette" style="width:100%">
+                                <h1>Plastic Palette</h1>
+                                <p class="price">$2</p>
+                                <p>Traditional artists paint palette.</p>
+                                <p><button onclick="plasticPalette()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="ceramicpalette.jpeg" alt="Ceramic Palette" style="width:100%">
+                                <h1>Ceramic Palette</h1>
+                                <p class="price">$10</p>
+                                <p>7 wells chineese artists paint palette.</p>
+                                <p><button onclick="ceremicPalette()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                    <tr class = "table-row">
+                        <td>
+                            <div class="item-card">
+                                <img src="woodenpalette.jpeg" alt="Wooden Palette" style="width:100%">
+                                <h1>Wooden Palette</h1>
+                                <p class="price">$5</p>
+                                <p>9 wells wooden artists paint palette.</p>
+                                <p><button onclick="woodenpalette()">Add to Cart</button></p>
+                              </div>   
+                        </td>
+                    </tr>
+                </table>
+				
+				</div>
+				<!--Inserting a horizontal rule and styling included-->
+				<hr style="height:10px;color:#333;background-color:#333;" />
+				<br>
+			     
+				 <!--Form to gather customer details-->
+				 <form name="placeOrderForm"  onsubmit="return validateForm()">
+                    <fieldset class="fieldset">
+                    <legend style="color: #826F66"><h2> <b> <i>Your details </i> </b></h2></legend>
+						   	<div id="printInvoice">
+								<label for="namef">Name:<br>
+								<input type="text" name="namef" id="namef" placeholder="Enter your full name" size="20">
+								</label><br>
+								<label for="email"> Email adress:<br>
+								<input type="email" name="Emailadress" placeholder="Enter your email adress" id="email" size="20">
+								</label><br>
+							</div>
+								<label for="card" >Card Number<br>
+								<input type="text" name="CardNumber" placeholder="Enter your visa card Number" id="card" size="20">
+								</label><br><br><br>
+								<input type="submit"> <button onclick = "printArray()"   id="vieworder">View Order</button><br>
+                    </fieldset>
+				</form>
+				<!--invoice details section-->
+				<h4 id="invoice"> Invoice Details</h4>
+				<p id="customerName"></p>
+				<p id ="customerEmail"></p>
+				<!--A content table which will print the items which were added to the card-->
+			    <table id="productCart">
+				    <tr>
+                        <th> Product Name</th>
+					    <th>Price</th>
+					    <th>Quantity</th>
+					        <td>Check bottom to price</td>
+						    
+				    </tr>  
+			    </table>
+				
+				<!--link in the footer will return to the editors page-->
+				<footer>
+					<a href="pagedevmi.html"> Page Developer</a>
+				</footer>
+				 
+				<!--Java script codes for the functions are included-->
+				<script src="products.js"></script>
+	</body>
+		
+</html>										
+	
+	
+	
+	
+	
+	

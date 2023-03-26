@@ -1,0 +1,42 @@
+h1,h4 { text-align: center;
+}
+
+.textst{
+	text-align : center;
+	padding : 40px;
+ }
+ 
+input[type=text] {
+  background-color:#ffe6e6;
+  color:black;
+}
+
+input[type=email] {
+  background-color:#ffe6e6;
+  color:black;
+}
+
+#feedback{
+  background-color:#ffe6e6;
+  color:black;
+  width:450px;
+  height:150px;
+}
+
+.btall {font-size:15px;
+	border-style:solid;
+	color:black;
+	background-color:#ffcdb0;
+	padding:10px; 
+	margin: 5px;
+}
+ 
+.btall:hover{
+	background-color:#f18468;
+}
+ 
+a.texteditor:link { color : black;}
+a.texteditor:visited { color : purple;}
+a.texteditor:hover { color : red;}
+a.texteditor:active { color : yellow;}
+ 
